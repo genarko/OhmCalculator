@@ -1,0 +1,37 @@
+﻿@using OhmCalculator.Models
+@model OhmViewModel
+
+@{
+    ViewBag.Title = "Ohm Calculator";
+}
+
+<div style="margin-top:10px">
+    @using (Ajax.BeginForm("Index",new AjaxOptions()))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.BandA)
+            @Html.DropDownListFor(m => m.SelectedBandA, new SelectList(Model.BandA, "Value", "Text"), new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.BandB)
+            @Html.DropDownListFor(m => m.SelectedBandB, new SelectList(Model.BandB, "Value", "Text"), new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.BandC)
+            @Html.DropDownListFor(m => m.SelectedBandC, new SelectList(Model.BandC, "Value", "Text"), new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.BandD)
+            @Html.DropDownListFor(m => m.SelectedBandD, new SelectList(Model.BandD, "Value", "Text"), new { @class = "form-control" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Resistance)
+            @Html.TextBoxFor(m => m.Resistance,new { @disabled = true })
+        </div>
+        <input type="submit" value="Calculate" />
+    }
+</div>
+        

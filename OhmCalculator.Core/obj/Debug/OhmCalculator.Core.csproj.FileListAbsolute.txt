@@ -1,0 +1,11 @@
+C:\Users\jrivera\Desktop\Web\OhmCalculator\OhmCalculator.Core\bin\Debug\OhmCalculator.Core.dll
+C:\Users\jrivera\Desktop\Web\OhmCalculator\OhmCalculator.Core\bin\Debug\OhmCalculator.Core.pdb
+C:\Users\jrivera\Desktop\Web\OhmCalculator\OhmCalculator.Core\obj\Debug\OhmCalculator.Core.csproj.CoreCompileInputs.cache
+C:\Users\jrivera\Desktop\Web\OhmCalculator\OhmCalculator.Core\obj\Debug\OhmCalculator.Core.dll
+C:\Users\jrivera\Desktop\Web\OhmCalculator\OhmCalculator.Core\obj\Debug\OhmCalculator.Core.pdb
+C:\Development\Web\OhmCalculator\OhmCalculator.Core\bin\Debug\OhmCalculator.Core.dll
+C:\Development\Web\OhmCalculator\OhmCalculator.Core\bin\Debug\OhmCalculator.Core.pdb
+C:\Development\Web\OhmCalculator\OhmCalculator.Core\obj\Debug\OhmCalculator.Core.csprojResolveAssemblyReference.cache
+C:\Development\Web\OhmCalculator\OhmCalculator.Core\obj\Debug\OhmCalculator.Core.csproj.CoreCompileInputs.cache
+C:\Development\Web\OhmCalculator\OhmCalculator.Core\obj\Debug\OhmCalculator.Core.dll
+C:\Development\Web\OhmCalculator\OhmCalculator.Core\obj\Debug\OhmCalculator.Core.pdb
